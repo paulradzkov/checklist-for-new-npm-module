@@ -5,7 +5,7 @@
 
 ## Подготовка к первой публикации
 
-- [ ] добавить в корень проекта `.editorconfig` [http://editorconfig.org/](editorconfig) и убедиться, что код отформатирован по этим правилам. [Пример моего конфига](editorconfig-example).
+- [ ] добавить в корень проекта `.editorconfig` [http://editorconfig.org/](http://editorconfig.org/) и убедиться, что код отформатирован по этим правилам. [Пример моего конфига](https://github.com/paulradzkov/flxgrid.css/blob/master/.editorconfig).
 - [ ] создать или отредактировать `package.json`
 - [ ] создать или отредактировать `bower.json`
 - [ ] проверить `.gitignore`
@@ -19,9 +19,9 @@
 
 ## После первой публикации
 
-- [ ] добавить бэджи в `README.md` — [https://badge.fury.io](badges)
-- [ ] добавить в `README.md` ссылки на подключаемые из CDN релизные файлы — [https://unpkg.com/](unpkg) 
-- [ ] проверить рейтинг и рекомендации в https://npms.io
+- [ ] добавить бэджи в `README.md` — [https://badge.fury.io](https://badge.fury.io)
+- [ ] добавить в `README.md` ссылки на подключаемые из CDN релизные файлы — [https://unpkg.com/](https://unpkg.com/) 
+- [ ] проверить рейтинг и рекомендации в [https://npms.io](https://npms.io)
 
 ## Создание нового релиза
 
@@ -29,8 +29,3 @@
 - [ ] обновить `package.json` командой `npm version 1.0.X`
 - [ ] создать новый **git-tag** и обновить **changelog**
 - [ ] обновить пакет командой `npm publish`
-
-[editorconfig]: http://editorconfig.org/
-[editorconfig-example]:https://github.com/paulradzkov/flxgrid.css/blob/master/.editorconfig
-[badges]: https://badge.fury.io
-[unpkg]: https://unpkg.com/
